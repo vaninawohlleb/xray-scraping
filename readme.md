@@ -7,4 +7,3 @@ After `clone` install
 `$ npm install q`
 
 and run `node index.js`
-

@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-var scarping = require('./scraping');
+var scraping = require('./scraping');
 
 app.get('/', function(req, res) {
-  scarping.getFaqs().then(
+  scraping.getFaqs().then(
     function(data) {
       res.status(200).json(data);
     },
