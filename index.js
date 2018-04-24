@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-var scarping = require('./scarping');
+var scarping = require('./scraping');
 
 app.get('/', function(req, res) {
   scarping.getFaqs().then(
